@@ -1,0 +1,9 @@
+  .custom-message {
+    background-color: #ffc0cb;
+    border: 1px solid #ff69b4;
+    color: #ff69b4;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+  }

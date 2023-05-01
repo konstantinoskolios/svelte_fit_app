@@ -1,0 +1,33 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w -s",
+    "start": "sirv public --no-clear -s"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@sveltejs/adapter-node": "^1.2.4",
+    "rollup": "^3.15.0",
+    "rollup-plugin-css-only": "^4.3.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.1.2",
+    "svelte": "^3.55.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@tabler/icons-svelte": "^2.17.0",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.3.0",
+    "dotenv": "^16.0.3",
+    "sirv-cli": "^2.0.0",
+    "svelte-router": "^3.0.0-alpha.2",
+    "svelte-routing": "^1.6.0",
+    "svelte-spa-router": "^3.3.0"
+  }
+}

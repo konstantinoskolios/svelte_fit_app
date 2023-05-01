@@ -1,0 +1,96 @@
+body{
+    background-color: gr;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .logo a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-left: 30px;
+  }
+  
+  .menu li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu li a:hover {
+    color: #f7941e;
+  }
+  
+  /* About Us Section */
+  .we-are-block {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+  }
+  
+  #about-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+  .about-us-image img {
+    max-width: 100%;
+  }
+  
+  .about-us-info {
+    padding: 0 40px;
+    max-width: 550px;
+    text-align: center;
+  }
+  
+  .about-us-info h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-info p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .about-us-info a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f7941e;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .about-us-info a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+
