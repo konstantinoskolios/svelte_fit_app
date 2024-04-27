@@ -4,10 +4,10 @@ const { Client } = require("pg");
 
 const client = new Client({
   host: "localhost",
-  user: "postgres",
+  user: "pgtest",
   port: 5432,
-  password: "pass",
-  database: "my-fit-app",
+  password: "pgtest",
+  database: "svelt-test",
 });
 
 client.connect();

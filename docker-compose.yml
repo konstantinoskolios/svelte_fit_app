@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  postgres:
+    image: postgres:alpine
+    container_name: postgres-malakies
+    environment:
+      POSTGRES_DB: svelt-test
+      POSTGRES_USER: pgtest
+      POSTGRES_PASSWORD: pgtest
+    volumes:
+      - postgres_data_svelte_test:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data_svelte_test:
